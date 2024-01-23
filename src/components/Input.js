@@ -9,13 +9,13 @@ export default function Input() {
     const [percent, setPercent] = useState("")
     const [arr, setArr] = useState([])
     const addCustomerData = () => {
-        if(customerAmt.length == ""){
+        if(customerAmt.length === ""){
             alert("Please fill all the Details")
         }
-        else if(customerName.length == ""){
+        else if(customerName.length === ""){
             alert("Please fill all the Details")
         }
-        else if(percent.length == ""){
+        else if(percent.length === ""){
             alert("Please fill all the Details")
         }
         else{
