@@ -1,0 +1,130 @@
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  border:2px solid red;
+  height: 60px;
+}
+.header-heading{
+  margin: 0px;
+  color: white;
+}
+.container{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.sub{
+  width: 60%;
+ 
+}
+.cal{
+  text-align:center;
+  display:"flex";
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* height: 10; */
+  align-items: center;
+  border: 2px solid green;
+  margin-top: 15px;
+  padding: 10px;
+}
+.cal > button {
+  padding:0.5%;
+  background-color:green;
+  color:white
+}
+.footer{
+  text-align: center;
+  height:5vh;
+  border:2px solid pink;
+  background-color:black;
+  color:white
+}
+.amt-inpt{
+  width: 90%;
+  text-align: center;
+  /* height: 80px; */
+}
+.service{
+  width: 70%;
+}
+.select{
+  width: 13%;
+  height: 25px;
+  border: 2px solid rgb(18, 125, 212);
+  margin: 20px 5px;
+}
+.add-btn{
+  background-color: rgb(18, 125, 212);
+  border: none;
+  height: 25px;
+  margin: 0px 5px;
+}
+table{
+  width: 100%;
+  border: 2px solid palevioletred;
+  border-collapse: collapse;
+  margin: 0px 0px;
+}
+.table-heading{
+  text-align: center;
+  margin: 5px 0px;
+  
+}
+td{
+  margin: 0px 20px;
+}
+ .table-data {
+  border: 1px solid black;
+  text-align: center;
+
+}
+.cal-btn{
+  
+  background: green;
+  border: none;
+  color: white;
+  width: 30%;
+  height: 25px;
+  margin: 0px;
+}
+.div-cal-btn{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.footer{
+  background-color: black;
+  /* height: 50px; */
+}
+.footer-head{
+  color: white;
+  margin: 0px;
+
+}
+@media screen and (max-width:800px){
+  input[type="text"]{
+    padding: 2.5%;
+    margin: 10px 0px;
+    /* width: 250px; */
+  }
+  input[type="number"]{
+    padding: 2.5%;
+    margin: 10px 0px;
+  }
+  .service{
+    width:98%;
+    display: flex;
+    flex-direction: column;
+    /* background-color:red */
+  }
+  input[type="button"]{
+    padding: 2.5%;
+    margin: 10px 0px;
+  }
+  .sub{
+    width: 98%;
+  }
+}
